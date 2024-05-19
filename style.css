@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(207, 218, 227);
+}
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newsmain{
+    width: 80%;
+    max-width: 1440px;
+    background-color: white;
+    padding: 30px 5%;
+    margin: auto;
+}
+.news_head{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px lightblue solid;
+}
+.news_ul{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+    align-items: end;
+    gap: 15px;
+    padding: 0 10px;
+}
+.news_ul li{
+    height: 50%;
+    padding: 0px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px rgb(44, 51, 147) solid;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.4);
+}
+.news_block{
+
+    display: flex;
+    gap: 5%;
+    padding: 0 10px;
+}
+.news_block_left{
+    width: 65%;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.news_block_card{
+    width: 400px;
+    height: 300px;
+    background: url("https://osvita.rada.gov.ua/uploads/logos_small/763b3563012d75c701d53f098a2be4af.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    
+}
+.news_block_card_main{
+    text-wrap: wrap;
+    width: 400px;
+    height: 350px;
+}
+.main_text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-wrap: wrap;
+
+}
+.news_inside{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(213, 213, 213);
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7653186274509804) 0%, rgba(255,255,255,0) 100%);
+}
+.news_block_right{
+    width: 30%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.news_topic{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.news_topic > p {
+    margin: 0;
+}
+.news_topic > h3{
+    margin: 0;
+    font-size: 22px;
+}
+.img2{
+    background-image: url('https://osvita.rada.gov.ua/uploads/logos_small/4d435e1046ad2852e73e6e1252523f50.jpeg');
+}
+.img3{
+    background-image: url('https://osvita.rada.gov.ua/uploads/logos_small/0ebe8396ab4bc1dd1cb9a8fe689a33b5.jpeg');
+}
+@media only screen and (max-width: 900px){
+    .news_block{
+        display: block;
+    }
+    .news_block_left{
+        margin: auto;
+    }
+    .news_block_right{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .news_block_card_main{
+        width: 300px;
+        height: 250px;
+    }
+    .news_block_card{
+        width: 300px;
+        height: 200px;
+    }
+    .newsmain{
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .news_head{
+        height: 40px;
+    }
+    .news_ul{
+        padding: 0;
+        height: 80%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-top: 10px;
+    }
+    .news_ul li{
+        padding: 0 10px;
+        margin-left: 10px;
+        box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.21);
+
+    }
+}
