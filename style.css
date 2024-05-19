@@ -1,5 +1,7 @@
 body{
     background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
 }
 .kartinka{
     width: 300px;
@@ -9,12 +11,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(118, 110, 235);
 }
 .navi{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
+    font-weight: 700;  
+    background-color: rgb(253, 205, 132);
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
 }
 .social{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.lishka{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+
+}
+#tik{
+    margin-left: 0;
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    flex-wrap: wrap;
 }
