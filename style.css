@@ -2,8 +2,78 @@
     padding-left: 7.5%;
 }
 .anons{
-    font-size: 1.33em;
+    font-size: 1.5em;
     letter-spacing: 1px;
     font-weight: 600;
     
+}
+.kartinki{
+    display: flex;
+    box-sizing: border-box;
+
+    border-width: 1px 0;
+    margin: 0 -3.45rem;
+    padding: 1.25rem 3.45rem;
+}
+.imgleft{
+    padding: 20px;
+     height: 230px;
+    object-fit: cover;
+    display: block;
+}
+.imgtop{
+
+   
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgright{
+    
+  
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.silki{
+    display: flex;
+    
+}
+.block1{
+    width: 25%;
+    height: 50%;
+}
+.block2{
+    width: 25%;
+    height: 50%;
+}
+.block3{
+    width: 25%;
+    height: 50%;
+}
+.onetext{
+    margin-top: -2.5%;
+    margin-left: 5%;
+    width: 75%;
+    font-size: 19px;
+}
+.twotext{
+    margin-top: -2.5%;
+    margin-left: 5%;
+    width: 75%;
+    font-size: 19px;
+}
+.treetext{
+    margin-top: -2.5%;
+    margin-left: 5%;
+    width: 75%;
+    font-size: 19px;
 }
