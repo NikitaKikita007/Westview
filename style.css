@@ -198,3 +198,27 @@ body{
     margin: 0;
     flex-wrap: wrap;
 }
+
+
+
+.karusel{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: auto;
+    /* padding: 0 300px; */
+    overflow: hidden;
+}
+.karusel_main{
+    display: flex;
+    width: 600px;
+    height: 100%;
+    gap: 200px;
+transition: all 3s linear;
+}
+.karusel1{
+    width: 100px;
+}
+.karusel1 >img{
+    width: 100px;
+    height: 100px;  
+}
